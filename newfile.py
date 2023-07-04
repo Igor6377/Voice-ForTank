@@ -5,7 +5,7 @@ from .. import loader
 
 @loader.tds
 class voiceForTank(loader.Module):
-    """Голосовые сообщения танковни @WotHata"""
+    """Голосовые сообщения танковни https://t.me/hatawot"""
 
     strings = {"name": "voiceWotHata"}
 
@@ -35,53 +35,53 @@ class voiceForTank(loader.Module):
         )
         return
 
-    async def даcmd(self, message):
-        """| Да"""
+    async def повезлоcmd(self, message):
+        """| Тебе повезло, что сейчас добрый. Я бы сейчас я ебанул, там молнию метеорит. Что-то ещё да?"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/197",
+             "https://t.me/tankovnacoco/5",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def нетcmd(self, message):
-        """| Нет"""
+    async def стоныcmd(self, message):
+        """| Стоны""";
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/196",
+            "https://t.me/tankovnacoco/6",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def жальcmd(self, message):
-        """| очень жаль"""
+    async def чертилаcmd(self, message):
+        """| Ты чертила обосанный закрой свой рот может у тебя мать сдохла, если ты такой даун с 5 iq  говоришь что мать сдохла ммм да мммм шутить про мать в 2020 году ты гений"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/199",
+            "https://t.me/tankovnacoco/7",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def недоверяюcmd(self, message):
-        """| я тебе не доверяю"""
+    async def кринжcmd(self, message):
+        """| Ты что Боже Боже чел. Ну, ты вообще калинж просто Блядь ну что-то несёшь. Ну не позорься, пожалуйста. я просто Кринжую просто с тебя."""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/200",
+            "https://t.me/tankovnacoco/9",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
