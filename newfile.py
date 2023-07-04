@@ -87,92 +87,92 @@ class voiceForTank(loader.Module):
         )
         return
 
-    async def подождиcmd(self, message):
-        """| подожди"""
+    async def репчинаcmd(self, message):
+        """| малой зачитал репчину"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/201",
+            "https://t.me/tankovnacoco/12",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def спокcmd(self, message):
-        """| спокойной ночи"""
+    async def гимнcmd(self, message):
+        """| гимн бабахаводов"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/202",
+            "https://t.me/tankovnacoco/13",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def ясноcmd(self, message):
-        """| ясно"""
+    async def мойдедcmd(self, message):
+        """| Мой дед блядь, бахал, нахуй французов, блядь, чтобы ты сейчас ебалась и дрочила свою пизду, блядь, а не отсасывала ёбаном французом, нахуй немцам. Сука, ты ёбаная, чтоб сдохла ты."""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/203",
+            "https://t.me/tankovnacoco/11",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def обидcmd(self, message):
-        """| я обиделась"""
+    async def напидорасcmd(self, message):
+        """| малой посылает пидораса"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/204",
+            "https://t.me/tankovnacoco/15",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def тмнcmd(self, message):
-        """| ты мне нравишся"""
+    async def даунcmd(self, message):
+        """| даун обосанный"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/205",
+            "https://t.me/tankovnacoco/16",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def мурcmd(self, message):
-        """| мур"""
+    async def сынокcmd(self, message):
+        """| Окей сыночек ебаный прутодичный залупной творожник и покажи мне удел свой терпила, ёбаная способная лишь показывать, насколько ты умеешь сосать мой огромный хуец и три пластовенный хуйровище, но так Получи же, очередную порцию, харчей в свой тупоеду ебальничек, некогда выебанную утюгом. Ты просто ещё не понимаешь, что рано или поздно за реальные копипастой. Я буду ставить тебя раком, а затем после того, как твой же Отец обрубок вытрахает тебя насквозь и получишь мою пятку себе промеж шейных позвонков."""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/206",
+            "https://t.me/tankovnacoco/21",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
         return
 
-    async def пжcmd(self, message):
-        """| ну пожалуйста"""
+    async def фактcmd(self, message):
+        """| раскидка по фактам"""
 
         reply = await message.get_reply_message()
         await message.delete()
         await message.client.send_file(
             message.to_id,
-            "https://t.me/radiofmonline/207",
+            "https://t.me/tankovnacoco/22",
             voice_note=True,
             reply_to=reply.id if reply else None,
         )
